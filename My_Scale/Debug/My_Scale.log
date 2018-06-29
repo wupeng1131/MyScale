@@ -1,0 +1,21 @@
+﻿生成启动时间为 2017/9/9 17:01:49。
+     1>项目“D:\编程用文件夹\并行计算\My_Scale\My_Scale\My_Scale.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         C:\VS2012\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编程用文件夹\并行计算\My_Scale\Debug\My_Scale.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\opencv\build\x64\vc12\lib glaux.lib glut.lib glut32.lib glu32.lib opencv_world310.lib opencv_world310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:C:\VS2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\编程用文件夹\并行计算\My_Scale\Debug\My_Scale.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编程用文件夹\并行计算\My_Scale\Debug\My_Scale.lib" /MACHINE:X86 Debug\My_Scale.res
+         Debug\MyOpenGL.obj
+         Debug\My_Scale.obj
+         Debug\My_ScaleDlg.obj
+         Debug\stdafx.obj
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)，该符号在函数 "public: __thiscall cv::Mat::~Mat(void)" (??1Mat@cv@@QAE@XZ) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)，该符号在函数 "public: __thiscall cv::String::String(char const *)" (??0String@cv@@QAE@PBD@Z) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)，该符号在函数 "public: __thiscall cv::String::~String(void)" (??1String@cv@@QAE@XZ) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::error(int,class cv::String const &,char const *,char const *,int)" (?error@cv@@YAXHABVString@1@PBD1H@Z)，该符号在函数 "public: unsigned char * __thiscall cv::Mat::ptr<unsigned char>(int)" (??$ptr@E@Mat@cv@@QAEPAEH@Z) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)，该符号在函数 "public: void __thiscall cv::Mat::create(int,int,int)" (?create@Mat@cv@@QAEXHHH@Z) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)，该符号在函数 "public: void __thiscall cv::Mat::release(void)" (?release@Mat@cv@@QAEXXZ) 中被引用
+     1>My_ScaleDlg.obj : error LNK2019: 无法解析的外部符号 "void __cdecl cv::split(class cv::_InputArray const &,class cv::_OutputArray const &)" (?split@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@@Z)，该符号在函数 "protected: void __thiscall CMy_ScaleDlg::saveColorData2Img(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)" (?saveColorData2Img@CMy_ScaleDlg@@IAEXAAV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z) 中被引用
+     1>D:\编程用文件夹\并行计算\My_Scale\Debug\My_Scale.exe : fatal error LNK1120: 7 个无法解析的外部命令
+     1>已完成生成项目“D:\编程用文件夹\并行计算\My_Scale\My_Scale\My_Scale.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.84

@@ -1,0 +1,49 @@
+﻿生成启动时间为 2018/6/20 23:17:37。
+     1>项目“D:\编程用文件夹\并行计算\My_Scale\My_Scale\My_Scale.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\VS2012\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /MDd /GS /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\My_Scale_2.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt My_ScaleDlg.cpp
+         My_ScaleDlg.cpp
+     1>D:\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(92): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(122): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(614): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(615): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(734): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(738): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(757): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(761): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(867): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(868): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(869): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(895): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(958): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(966): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(1022): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\measure.h(1220): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>d:\编程用文件夹\并行计算\my_scale\my_scale\grab.h(73): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>My_ScaleDlg.cpp(129): warning C4305: “参数”: 从“double”到“float”截断
+     1>My_ScaleDlg.cpp(130): warning C4305: “参数”: 从“double”到“float”截断
+     1>My_ScaleDlg.cpp(131): warning C4305: “参数”: 从“double”到“float”截断
+     1>My_ScaleDlg.cpp(132): warning C4305: “参数”: 从“double”到“float”截断
+     1>My_ScaleDlg.cpp(133): warning C4305: “参数”: 从“double”到“float”截断
+     1>My_ScaleDlg.cpp(437): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>My_ScaleDlg.cpp(453): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>My_ScaleDlg.cpp(468): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>My_ScaleDlg.cpp(483): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>My_ScaleDlg.cpp(542): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         C:\VS2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\编程用文件夹\并行计算\My_Scale\x64\Debug\My_Scale_2.exe" /INCREMENTAL /NOLOGO freeglut_staticd.lib freeglutd.lib opencv_world310.lib opencv_world310d.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:C:\VS2012\VC\Include\Manifest\dpiaware.manifest /DEBUG /PDB:"D:\编程用文件夹\并行计算\My_Scale\x64\Debug\My_Scale_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\编程用文件夹\并行计算\My_Scale\x64\Debug\My_Scale_2.lib" /MACHINE:X64 x64\Debug\My_Scale.res
+         x64\Debug\DrawFlag.obj
+         x64\Debug\MyJoint.obj
+         x64\Debug\MyOpenGL.obj
+         x64\Debug\My_Scale.obj
+         x64\Debug\My_ScaleDlg.obj
+         x64\Debug\stdafx.obj
+         My_Scale.vcxproj -> D:\编程用文件夹\并行计算\My_Scale\x64\Debug\My_Scale_2.exe
+     1>已完成生成项目“D:\编程用文件夹\并行计算\My_Scale\My_Scale\My_Scale.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:15.80
